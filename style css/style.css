@@ -1,0 +1,244 @@
+
+.Merriweather{
+  font-family: "Merriweather", serif;
+}
+.Inter{
+  font-family: "Inter", sans-serif;
+}
+/* content over liner gradient over banner img */
+.banner{
+    display: flex;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.banner img{
+    display: block;
+    height: 600px;
+    width: auto;
+}
+.gradient-top{
+    background: linear-gradient(to bottom, #070211, #07021100);
+    position: absolute;
+    height: 600px;
+    aspect-ratio: 1320 / 600;
+    pointer-events: none;
+    border-radius: 16px;
+}
+.banner-content{
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+.wish{
+    font-size: 32px;
+}
+.celebration{
+    font-size: 72px;
+    font-weight: 700;
+    padding: 0;
+    margin: 16px;
+}
+/* offer section style */
+.offer{
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
+.percent{
+    font-size: 88px;
+    font-weight: 700;
+    color: #FF0000;
+    margin: 48px auto;
+    padding: 0px;
+}
+.deals{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.categories{
+    font-size: 48px;
+    font-weight: 700;
+}
+.wish-img{
+    width: 802px;
+}
+
+/* invitation poster style  */
+.poster-container{
+    display: flex;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    margin-top: 120px;
+}
+.poster-img{
+    display: block;
+    height: 600px
+    width: auto;
+}
+.greadient-left{
+    background: linear-gradient(to right, #070211, #07021100);
+    position: absolute;
+    height: 600px;
+    aspect-ratio: 1320 / 600;
+    pointer-events: none;
+    border-radius: 16px;
+}
+.contain-container{
+    display: flex;
+}
+.poster-contain{
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 39px;
+    
+}
+.invitation{
+    font-size: 64px;
+    font-weight: 700;
+}
+.poster-description{
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffffcc;
+}
+.join{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: transparent;
+    border: none;
+    margin: 48px 32px;
+}
+
+/* event details section */
+.event{
+    background: linear-gradient(to bottom, #FF00001A, #FF000000);
+    height: 482px;
+    aspect-ratio: 1320 / 482;
+    border-radius: 16px;
+    text-align: center;
+    margin: 120px auto 60px;
+}
+.details-box{
+    align-items: center;
+}
+.event-details{
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 110px;
+    line-height: 1.75;
+}
+.details-title{
+    color: #FF0000;
+}
+.join-button{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 32px;
+    color: white;
+    background-color: #FF0000;
+    border: none;
+    border-radius: 16px;
+}
+
+/* Upcoming offer section  */
+.up-offer-container{
+    display: flex;
+    height: 463px;
+    aspect-ratio: 1320 / 463;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px auto;
+}
+.best-offer, .port-title{
+    font-size: 24px;
+    color:#FF0000;
+    font-weight: 500;
+    padding: 0px;
+}
+.offer-head, .port-headline{
+    font-size: 48px;
+    color: black;
+    margin-top: 15.5px;
+    margin-bottom: 21.31px;
+}
+.offer-desc, .port-desc{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 43px;
+}
+/* fast div end  */
+.cele-img{
+    border:15px solid #FF0000;
+    border-radius: 50%;
+    padding: 49.08px;
+    margin: 0px 118px 0px 70px;      
+}
+
+/* last div style  */
+.year{
+    font-size: 48px;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+/* holiday sell section  */
+.functional{
+    text-align: center;
+    width: 1068px;
+    margin: 120px auto 64px;
+}
+.sale-header{
+    font-size: 24px;
+    font-weight: 500;
+}
+.sale-headline{
+    font-size: 72px;
+    font-weight: bolder;
+    margin: 0 auto;
+}
+/* giftbox poster  */
+.giftbox-container{
+    display: flex;
+    justify-content: space-around;
+    height: 662px;
+    aspect-ratio: 1320 / 662;
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-size: fixed;
+    background-position: bottom;
+    margin: 0 auto;
+}
+.dicount-tag{
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+/* product section  */
+.products{
+    height: 1163px;
+    aspect-ratio: 1320 / 1163;
+    margin: 120px auto;
+
+}
+.portfolio-header{
+    width: 896px;
+}
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
