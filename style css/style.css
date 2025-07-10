@@ -5,6 +5,11 @@
 .Inter{
   font-family: "Inter", sans-serif;
 }
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
 /* content over liner gradient over banner img */
 .banner{
     display: flex;
@@ -270,4 +275,43 @@
 }
 .Sub-card img{
     margin-top: 80px;
+}
+
+/* footer  */
+footer{
+    background-color: #070211;
+    color: #ffffff;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 0 auto;
+    padding: 120px 140px;
+    height: 469px;
+    aspect-ratio: 1600 / 609;
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    margin-bottom: 25px;}
+.tel{
+    margin-right: 135px
+}
+footer hr{
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: none;
+}
+.icons{
+    text-align: center;
+    margin: 50px auto;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    padding-top: 25px;
 }
