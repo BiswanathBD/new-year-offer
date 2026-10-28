@@ -1,0 +1,19 @@
+config.bat
+node_modules
+
+# Security & Editor ignore
+api.js
+api.ts
+**/public/fonts/
+
+# Environment variables & secrets (added by GitHub Guardian)
+*.env
+!.env.example
+!.env.sample
+.envrc
+.venv/
+venv/
+
+# Environment variables & secrets (added by GitHub Guardian)
+.env
+.env.*
